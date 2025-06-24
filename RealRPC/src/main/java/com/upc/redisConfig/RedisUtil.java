@@ -15,7 +15,7 @@ public class RedisUtil {
         poolConfig.setMaxIdle(10);
         poolConfig.setMinIdle(5);
 
-        jedisPool = new JedisPool(poolConfig, "192.168.147.130", 6379, 2000, null);
+        jedisPool = new JedisPool(poolConfig, "*******", 6379, 2000, null);
     }
 
     // 获取Jedis实例
